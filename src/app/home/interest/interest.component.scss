@@ -1,0 +1,47 @@
+.body-interest {
+  width: 100%;
+  height: 300px;
+  .header {
+    font-size: 30px;
+    .icon-header {
+      font-size: 40px;
+      color: #ff5722;
+    }
+    .skill {
+      font-weight: 500;
+    }
+  }
+  .sub-body-interest {
+    background: white;
+    width: 60%;
+    height: 80%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    .header-body {
+      width: 100%;
+      height: 50%;
+      border-bottom: solid 0.5px #eeeeee;
+      font-size: 18px;
+      text-align: center;
+      padding: 20px;
+    }
+    .bottom-body {
+        width: 100%;
+      height: 50%;
+      .row {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        .col-3 {
+        //   border-right: solid 1px black;
+        color: white;
+        font-size: 27px;
+          &:nth-child(2n - 1) {
+              background: #06a763;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.body-contact {
+    width: 100%;
+    height: 500px;
+    .header {
+        font-size: 30px;
+        .icon-header {
+          font-size: 40px;
+          color: #ff5722;
+        }
+        .contact {
+          font-weight: 500;
+        }
+      }
+      .sub-body-contact {
+        width: 30%;
+        height: 100%;
+        background: white;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    padding: 20px;
+    .btn-send {
+        button {
+        background: #06a763;
+        color: white;
+    }
+    }
+      }
+}
