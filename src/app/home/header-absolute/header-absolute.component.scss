@@ -102,9 +102,11 @@
           //   background: #f4f4f4;
           // background:#3f51b5;
           .img-dd {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            // min-width: 200px;
+            // min-height: 200px;
+            border-radius: 100%;
             background-image: url(../../../assets/img/thienvu.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;

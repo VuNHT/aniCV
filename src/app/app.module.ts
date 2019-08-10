@@ -18,6 +18,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatDialogModule, MatFormFieldModule, MatButtonModule, MatInputModule} from '@angular/material';
 import { DialogComponent } from './dialog/dialog.component';
 import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
+import { ColorBgComponent } from './color-bg/color-bg.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
     InterestComponent,
     ContactComponent,
     DialogComponent,
-    NavbarLeftComponent
+    NavbarLeftComponent,
+    ColorBgComponent
   ],
   imports: [
     BrowserModule,
